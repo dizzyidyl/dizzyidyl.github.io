@@ -1,0 +1,134 @@
+body {
+  margin: 0%;
+  background-image: url(../../images/grid_background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 150px;
+  text-shadow: 2px 2px 5px hotpink;
+  text-align: center;
+  margin: 15px;
+  padding: 5px;
+  width: 70%;
+  background-color: lavender;
+  border: 2px solid black;
+}
+#headshot {
+  position: absolute;
+  top: 15px;
+  right: 0px;
+}
+
+div.content {
+  display: block;
+  position: relative;
+  text-align: center;
+  margin: 60px;
+  width: 65%;
+}
+h3.title {
+  display: inline-flex;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  left: -125px;
+  border-radius: 10px;
+  border: 2px solid black;
+  padding: 15px;
+  background-color: #c68666;
+  text-shadow: -1px 0 whitesmoke, 0 1px whitesmoke, 1px 0 whitesmoke,
+    0 -1px whitesmoke;
+  box-shadow: 10px 10px #ffb4a2;
+}
+
+#bio {
+  text-align: right;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 19px;
+  position: relative;
+  left: 435px;
+  padding: 45px;
+  background-color: #5e7892;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+}
+.content > img {
+  position: absolute;
+  top: 100px;
+  float: left;
+  left: -75px;
+}
+
+.flex-container {
+  display: flex;
+  position: relative;
+  align-content: space-around;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 60px;
+  margin: 20px;
+  background-color: rgb(255, 105, 180, 0.65);
+  border: 7px solid black;
+  border-radius: 10px;
+}
+h1.title {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 35px;
+  color: palevioletred;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  border-radius: 10px;
+  border: 2px solid black;
+  padding: 15px;
+  margin: 10px;
+  width: 75%;
+  right: -300px;
+  background-color: #000000;
+  text-shadow: -1px 0 #e2c2d4, 0 1px #e2c2d4, 1px 0 #e2c2d4, 0 -1px #e2c2d4;
+  box-shadow: 10px 10px #e2d2d4;
+}
+
+.flex-container > div {
+  position: relative;
+  display: flex;
+  margin: 20px;
+  padding: 40px;
+  background-color: lavender;
+  border-radius: 10px;
+  border: 4px solid palevioletred;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 30px;
+  text-shadow: -1px 0 whitesmoke, 0 1px whitesmoke, 1px 0 whitesmoke,
+    0 -1px whitesmoke;
+  width: 400px;
+  height: 400px;
+}
+
+.flex-container #links {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  top: -20px;
+  left: 135px;
+  position: absolute;
+  justify-content: center;
+  margin: 20px;
+}
+
+footer > p {
+  background-color: #aab9b2;
+  text-align: center;
+  border: 10px solid black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+}
