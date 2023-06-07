@@ -12,6 +12,5 @@ Morgan Meyers
 ## Acknowledgments
 
 Icons, images and inspiration: 
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
 * [icons8](https://icons8.com/)
 * [rawpixel](https://www.rawpixel.com/)
