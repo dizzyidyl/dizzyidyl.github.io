@@ -7,7 +7,7 @@ An online portfolio created with HTML & CSS that showcases my recent projects an
 ## Authors
 
 Morgan Meyers
-ex. [LinkedIn](https://www.linkedin.com/in/morgan-meyers-841328269/)
+[LinkedIn](https://www.linkedin.com/in/morgan-meyers-841328269/)
 
 ## Acknowledgments
 
